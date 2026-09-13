@@ -117,16 +117,6 @@ export default function HeroSystemVisual() {
           <path d={diamond(400, 505, 260, 130)} />
         </g>
 
-        {/* floating wireframe tiles (layers) */}
-        <g fill="rgba(61,90,254,0.06)" stroke={STROKE_SOFT} strokeWidth="1" className="hidden md:block" aria-hidden>
-          <path d={diamond(290, 220, 110, 55)} />
-          <line x1="290" y1="248" x2="325" y2="315" stroke={DASH} strokeWidth="1" strokeDasharray="2 6" />
-          <circle cx="325" cy="315" r="2.5" fill={DOT} />
-          <path d={diamond(505, 185, 95, 48)} />
-          <line x1="505" y1="209" x2="465" y2="315" stroke={DASH} strokeWidth="1" strokeDasharray="2 6" />
-          <circle cx="465" cy="315" r="2.5" fill={DOT} />
-        </g>
-
         {/* core slab — the focal object */}
         <g>
           <path d="M525,350 L400,410 L400,520 L525,460 Z" fill="#1B3FB8" />
@@ -161,16 +151,6 @@ export default function HeroSystemVisual() {
           <line x1="620" y1="138" x2="478" y2="305" stroke={DASH} strokeWidth="1" strokeDasharray="2 6" />
           <circle cx="478" cy="305" r="2.5" fill={DOT} />
           <Chip cx={620} cy={125} label="Ledger + reporting" />
-        </g>
-        <g className="hidden md:block" aria-hidden>
-          <line x1="635" y1="560" x2={680} y2={522} stroke={DASH} strokeWidth="1" strokeDasharray="2 6" />
-          <circle cx={680} cy={522} r="2.5" fill={DOT} />
-          <Chip cx={710} cy={560} label="Offline field sync" />
-        </g>
-        <g className="hidden md:block" aria-hidden>
-          <line x1="400" y1="155" x2="400" y2="285" stroke={DASH} strokeWidth="1" strokeDasharray="2 6" />
-          <circle cx="400" cy="285" r="2.5" fill={DOT} />
-          <Chip cx={400} cy={142} label="API gateway" />
         </g>
       </svg>
     </div>
