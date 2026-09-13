@@ -117,7 +117,7 @@ export default function SiteHeader({ locale }: { locale: Locale }) {
 
           <a
             href="#contact"
-            className="hidden items-center gap-2 rounded-[10px] bg-accent px-4 py-2 text-sm font-medium text-white transition-colors duration-150 hover:bg-electric md:inline-flex"
+            className="hidden items-center gap-2 rounded-[10px] bg-accent px-4 py-2 text-sm font-medium text-void transition-colors duration-150 hover:bg-electric md:inline-flex"
           >
             {dict.nav.contactUs}
           </a>
@@ -157,7 +157,7 @@ export default function SiteHeader({ locale }: { locale: Locale }) {
               ))}
               <a
                 href="#contact"
-                className="mt-2 block rounded-lg bg-accent px-3 py-2.5 text-center text-sm font-medium text-white transition-colors duration-150 hover:bg-electric"
+                className="mt-2 block rounded-lg bg-accent px-3 py-2.5 text-center text-sm font-medium text-void transition-colors duration-150 hover:bg-electric"
               >
                 {dict.nav.contactUs}
               </a>
