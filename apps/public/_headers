@@ -1,0 +1,32 @@
+# Static assets — Next.js adds content hashes, safe to cache forever
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Fonts
+/*.woff2
+  Cache-Control: public, max-age=31536000, immutable
+/*.woff
+  Cache-Control: public, max-age=31536000, immutable
+
+# Images
+/images/*
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+
+# Favicon and manifest
+/favicon.ico
+  Cache-Control: public, max-age=86400
+/manifest.json
+  Cache-Control: public, max-age=86400
+
+# HTML pages — short cache, serve stale while revalidating
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+  CDN-Cache-Control: max-age=60, stale-while-revalidate=86400
+
+# API and dynamic routes — no cache
+/api/*
+  Cache-Control: no-store
+
+# Default — no cache for HTML
+/*
+  Cache-Control: no-store
