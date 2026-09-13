@@ -90,6 +90,7 @@ export default function TestimonialsSection({ locale }: { locale: Locale }) {
                       : { x: { duration: 0.5, ease: EASE }, opacity: { duration: 0.3 } }
                   }
                   className="absolute inset-0 flex flex-col items-center justify-center"
+                  style={{ willChange: "transform, opacity" }}
                 >
                   <blockquote className="mb-6 text-center text-lg leading-relaxed text-ink-secondary md:text-xl">
                     &ldquo;{testimonials[index].quote}&rdquo;
@@ -111,7 +112,7 @@ export default function TestimonialsSection({ locale }: { locale: Locale }) {
                 <ChevronLeft className="h-4 w-4" strokeWidth={1.5} aria-hidden />
               </button>
 
-              <div className="flex items-center gap-2" role="tablist" aria-label={dict.tablist}>
+              <div className="flex items-center gap-2" role="group" aria-label={dict.tablist}>
                 {testimonials.map((_: unknown, dotIndex: number) => (
                   <button
                     key={dotIndex}
