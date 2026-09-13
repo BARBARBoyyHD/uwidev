@@ -1,0 +1,1 @@
+ opencode -s ses_f8a300ab6ffewUO8PkC7hGrkgM - Reference1.html implementation in Next.js

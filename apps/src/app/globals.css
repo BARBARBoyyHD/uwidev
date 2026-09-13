@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, SFMono-Regular, Menlo,
+    Consolas, monospace;
+
+  --color-void: #05070f;
+  --color-deep-blue: #0b1e5b;
+  --color-electric: #3d5afe;
+  --color-fade-light: #eaf0fb;
+  --color-surface: #ffffff;
+  --color-muted: #f5f6f8;
+  --color-ink: #0b0d12;
+  --color-ink-secondary: #5b6270;
+  --color-ink-on-dark: #f4f6fb;
+  --color-ink-on-dark-muted: #8b93a7;
+  --color-hairline: #e4e7ed;
+  --color-accent: #3d6bff;
+  --color-positive: #1f9d55;
+  --color-alert: #d5432b;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-surface);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background-color: var(--color-accent);
+  color: #fff;
+}
+
+/* Accessible focus ring for all interactive elements */
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* Dark hero mesh — the dark→light arc begins here */
+.hero-radial-mesh {
+  background: radial-gradient(
+    120% 90% at 70% 0%,
+    #17246b 0%,
+    #0a1030 45%,
+    #05070f 100%
+  );
+}
+
+/* Electric-blue bloom low in the hero (center-left), fading back to
+   near-black toward the bottom edge where the capability strip begins. */
+.hero-bloom {
+  background: radial-gradient(
+    65% 55% at 35% 82%,
+    rgba(61, 90, 254, 0.42) 0%,
+    rgba(61, 90, 254, 0.16) 45%,
+    transparent 72%
+  );
+}
+
+/* Thin 32px grid overlay — dark register */
+.grid-lines-pattern {
+  background-size: 32px 32px;
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.04) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+}
+
+/* Thin 32px grid overlay — light register */
+.grid-lines-light {
+  background-size: 32px 32px;
+  background-image: linear-gradient(
+      to right,
+      rgba(11, 13, 18, 0.03) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, rgba(11, 13, 18, 0.03) 1px, transparent 1px);
+}
+
+/* The one hero moment: the system diagram's core gently pulses on load */
+@keyframes core-pulse {
+  0%,
+  100% {
+    opacity: 0.45;
+  }
+  50% {
+    opacity: 0.95;
+  }
+}
+
+.animate-core-pulse {
+  animation: core-pulse 4s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .animate-core-pulse {
+    animation: none;
+  }
+  .hover\:-translate-y-1:hover {
+    translate: none;
+  }
+}

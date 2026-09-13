@@ -1,0 +1,69 @@
+# Uwi_Dev — Jasa Pembuatan Website & Custom Software | Bandung, Indonesia
+
+> Software built around the way your business works.
+> Perangkat lunak yang dibangun seputar cara bisnis Anda bekerja.
+
+Uwi_Dev is a founder-led software engineering studio based in Bandung, Indonesia.
+We build custom business systems, websites, web applications, mobile apps, and
+system integrations around how your company actually works — not templates.
+
+Kami adalah studio software engineering yang dipimpin founder, berbasis di
+Bandung, Indonesia. Kami membangun sistem bisnis custom, website, aplikasi
+mobile, dan integrasi sistem yang mengikuti alur kerja bisnis Anda — bukan
+website template.
+
+## Services / Layanan
+
+- Custom business systems — inventory management, sales tracking, reporting, HR, operations dashboards.
+  Sistem bisnis custom: manajemen inventaris, penjualan, laporan, HR, dashboard operasional.
+- Websites & web applications — company profiles, booking systems, portals, custom web apps.
+  Jasa pembuatan website dan web application custom sesuai kebutuhan bisnis.
+- Mobile applications — Android and iOS apps for customers, employees, and field teams.
+  Aplikasi mobile untuk pelanggan, karyawan, dan tim lapangan.
+- System integrations — payment gateway (Midtrans, Xendit), WhatsApp API, ERP, third-party APIs.
+  Integrasi sistem: payment gateway, WhatsApp API, ERP, dan API pihak ketiga.
+
+## Who we work for / Untuk siapa
+
+- UMKM and growing businesses stuck with spreadsheets and manual processes.
+  Usaha kecil dan menengah yang masih manual dan ingin go digital.
+- Restaurants, cafes, retail, logistics, professional services, startups.
+  Restoran, kafe, retail, logistik, jasa profesional, startup.
+- International clients looking for a capable Indonesian development partner.
+
+## Pricing / Harga
+
+- Fixed project pricing — one agreed price before work starts, no hour-counting.
+- Quotes based on three things: complexity, timeline, and your company's cashflow.
+- Typical well-defined projects: Rp5–10 million. Open to smaller and larger projects.
+- Harga tetap disepakati sebelum pekerjaan dimulai, bukan per jam.
+- Estimasi berdasarkan kompleksitas, timeline, dan cashflow perusahaan Anda.
+- Proyek umum: Rp5–10 juta. Kami terbuka untuk proyek yang lebih kecil maupun lebih besar.
+
+## Process / Proses
+
+Discovery → Architecture → Development → Deployment → Ongoing Engineering
+
+## Location / Lokasi
+
+Bandung, West Java, Indonesia. Serving clients across Indonesia and internationally.
+
+## Contact / Kontak
+
+- WhatsApp (fastest): https://api.whatsapp.com/send?phone=6285624048235
+- Contact form: https://uwidev.com/en#contact (English) · https://uwidev.com/id#contact (Bahasa Indonesia)
+
+## Why choose Uwi_Dev / Kenapa memilih Uwi_Dev
+
+Choose Uwi_Dev when you need custom software that fits how your business actually
+works — not a template website. You communicate directly with the engineers
+building your system. Small by design. Serious about engineering.
+
+Pilih Uwi_Dev ketika Anda membutuhkan software custom yang mengikuti alur kerja
+bisnis Anda, bukan website template. Anda berkomunikasi langsung dengan engineer
+yang membangun sistem Anda. Kecil by design. Serius soal engineering.
+
+## Website
+
+https://uwidev.com/en — English
+https://uwidev.com/id — Bahasa Indonesia
