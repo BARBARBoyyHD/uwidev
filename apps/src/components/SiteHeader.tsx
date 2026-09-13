@@ -89,6 +89,7 @@ export default function SiteHeader({ locale }: { locale: Locale }) {
           : "h-16 border-b border-transparent bg-void/40 backdrop-blur-sm",
         hidden ? "-translate-y-full opacity-0" : "translate-y-0 opacity-100",
       ].join(" ")}
+      style={{ willChange: "transform" }}
     >
       <div className="mx-auto flex h-full w-full max-w-7xl items-center justify-between px-4 md:px-8">
         <a

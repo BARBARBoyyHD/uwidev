@@ -101,6 +101,13 @@ body {
 
 .animate-core-pulse {
   animation: core-pulse 4s ease-in-out infinite;
+  will-change: opacity;
+}
+
+/* Below-the-fold sections: skip rendering until near viewport */
+section:not(.hero-radial-mesh) {
+  content-visibility: auto;
+  contain-intrinsic-size: 0 800px;
 }
 
 @media (prefers-reduced-motion: reduce) {
