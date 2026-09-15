@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import Reveal from "@/components/Reveal";
+import Reveal from "@/components/ui/Reveal";
 import { useHydrated, useReducedMotion } from "@/lib/hydrated";
 import { t, type Locale } from "@/lib/lang";
 

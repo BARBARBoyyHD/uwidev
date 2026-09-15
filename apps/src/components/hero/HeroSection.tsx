@@ -3,11 +3,14 @@
 import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 import type { ReactNode } from "react";
-import HeroSystemVisual from "@/components/HeroSystemVisual";
-import GhostFibers from "@/components/GhostFibers";
+import dynamic from "next/dynamic";
+import HeroSystemVisual from "@/components/hero/HeroSystemVisual";
 import { useHydrated, useReducedMotion } from "@/lib/hydrated";
 import { t, type Locale } from "@/lib/lang";
 
+const GhostFibers = dynamic(() => import("@/components/hero/GhostFibers"), {
+  ssr: false,
+});
 const BEATS = {
   headline: 0,
   sub: 0.15,

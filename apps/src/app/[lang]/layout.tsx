@@ -3,9 +3,9 @@ import { Inter, JetBrains_Mono } from "next/font/google";
 import { notFound } from "next/navigation";
 import "../globals.css";
 import { isLocale, locales, t } from "@/lib/lang";
-import SiteHeader from "@/components/SiteHeader";
-import SiteFooter from "@/components/SiteFooter";
-import FloatingWhatsApp from "@/components/FloatingWhatsApp";
+import SiteHeader from "@/components/layout/SiteHeader";
+import SiteFooter from "@/components/layout/SiteFooter";
+import FloatingWhatsApp from "@/components/layout/FloatingWhatsApp";
 
 const inter = Inter({
   variable: "--font-inter",
