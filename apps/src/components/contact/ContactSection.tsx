@@ -1,5 +1,5 @@
-import Reveal from "@/components/Reveal";
-import ContactForm from "@/components/contact-form";
+import Reveal from "@/components/ui/Reveal";
+import ContactForm from "@/components/contact/contact-form";
 import { WHATSAPP_URL } from "@/lib/contact";
 import { t, type Locale } from "@/lib/lang";
 

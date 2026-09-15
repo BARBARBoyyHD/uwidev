@@ -1,15 +1,15 @@
 import { notFound } from "next/navigation";
 import { isLocale } from "@/lib/lang";
-import HeroSection from "@/components/HeroSection";
-import ProblemSection from "@/components/ProblemSection";
-import ServicesSection from "@/components/ServicesSection";
-import ProcessSection from "@/components/ProcessSection";
-import WorkSection from "@/components/WorkSection";
-import PricingSection from "@/components/PricingSection";
-import IndustriesSection from "@/components/IndustriesSection";
-import AboutSection from "@/components/AboutSection";
-import TestimonialsSection from "@/components/TestimonialsSection";
-import ContactSection from "@/components/ContactSection";
+import HeroSection from "@/components/hero/HeroSection";
+import ProblemSection from "@/components/problem/ProblemSection";
+import ServicesSection from "@/components/services/ServicesSection";
+import ProcessSection from "@/components/process/ProcessSection";
+import WorkSection from "@/components/work/WorkSection";
+import PricingSection from "@/components/pricing/PricingSection";
+import IndustriesSection from "@/components/industries/IndustriesSection";
+import AboutSection from "@/components/about/AboutSection";
+import TestimonialsSection from "@/components/testimonials/TestimonialsSection";
+import ContactSection from "@/components/contact/ContactSection";
 
 export default async function HomePage({ params }: PageProps<"/[lang]">) {
   const { lang } = await params;

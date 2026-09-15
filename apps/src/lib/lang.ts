@@ -48,7 +48,7 @@ const translations = {
       eyebrowChips: ["Founder-led engineering", "Based in Indonesia"],
       headline: {
         line1: "Software built around",
-        line2: "your business.",
+        line2: " your business.",
       },
       sub: "We build custom business systems, web applications, mobile apps, and integrations around the way your company actually works.",
       cta: "Contact us",
@@ -193,37 +193,112 @@ const translations = {
     },
     pricing: {
       eyebrow: "Pricing",
-      title: "Priced by complexity, timeline, and your cashflow.",
-      sub: "We price the project, not the hours. You get a single clear quote for a well-defined scope — and you know the number before we start.",
-      featured: {
-        eyebrow: "How we quote",
-        title: "Defined-scope project",
-        factors: [
-          {
-            label: "Complexity",
-            description:
-              "How many systems, integrations, and workflows the project touches.",
-          },
-          {
-            label: "Timeline",
-            description: "How quickly you need it live.",
-          },
-          {
-            label: "Cashflow",
-            description:
-              "We structure the quote around your budget so it works for the business.",
-          },
-        ],
-        cta: "Describe the problem, get a fixed quote",
-      },
-      secondary: {
-        eyebrow: "Flexible",
-        title: "Different size",
-        description:
-          "Bigger or smaller — if the problem and the opportunity fit, we take it on.",
-        items: ["Custom fixed quote", "Scope agreed before start"],
-        cta: "Talk to us",
-      },
+      title: "Fixed quotes, starting from $200.",
+      sub: "Every project ships as one defined scope with a fixed price — you know the number before we start.",
+      intro:
+        "Prices below are starting points. Pick a product to see its tiers. Every project gets a single fixed quote after a short scoping call.",
+      pickLabel: "Pick a product",
+      fromLabel: "from",
+      warrantyLabel: "Maintenance warranty",
+      warrantyNote:
+        "Every tier includes a maintenance warranty — free bug fixes and small changes for the duration listed.",
+      tiers: [
+        {
+          name: "Basic",
+          tagline:
+            "A focused build that solves one need. Fast to ship and easy to manage — the clean way to get started.",
+          warranty: "1 month",
+        },
+        {
+          name: "Professional",
+          tagline:
+            "A complete custom system built around your workflow — data, reporting, and automation working as one. The tier most businesses choose.",
+          warranty: "3 months",
+        },
+        {
+          name: "Enterprise",
+          tagline:
+            "One connected platform — web, mobile, and integrations working together. Built for teams that rely on it daily.",
+          warranty: "6 months",
+        },
+      ],
+      services: [
+        {
+          id: "landing",
+          code: "01",
+          label: "Landing page",
+          tiers: [
+            { price: "$200" },
+            { price: "$400" },
+            { price: "$800", note: "+CMS" },
+          ],
+        },
+        {
+          id: "company-profile",
+          code: "02",
+          label: "Company profile",
+          tiers: [
+            { price: "$400" },
+            { price: "$800" },
+            { price: "$1.5k", note: "+CMS, multilingual" },
+          ],
+        },
+        {
+          id: "ecommerce",
+          code: "03",
+          label: "E-commerce",
+          tiers: [
+            { price: "$1k" },
+            { price: "$2k" },
+            { price: "$4k", note: "web + mobile" },
+          ],
+        },
+        {
+          id: "pos",
+          code: "04",
+          label: "POS system",
+          tiers: [
+            { price: "$1.5k" },
+            { price: "$3k" },
+            { price: "$6k", note: "POS + mobile ordering" },
+          ],
+        },
+        {
+          id: "business-system",
+          code: "05",
+          label: "Business system",
+          tiers: [
+            { price: "$1.5k" },
+            { price: "$3k" },
+            { price: "$7k", note: "web + field-team mobile" },
+          ],
+        },
+        {
+          id: "web-app",
+          code: "06",
+          label: "Web app / portal",
+          tiers: [{ price: "$2k" }, { price: "$4k" }, { price: "$8k" }],
+        },
+        {
+          id: "mobile-app",
+          code: "07",
+          label: "Mobile app",
+          tiers: [{ price: "$2.5k" }, { price: "$5k" }, { price: "$10k" }],
+        },
+        {
+          id: "integration",
+          code: "08",
+          label: "System integration",
+          tiers: [
+            { price: "$800" },
+            { price: "$1.5k" },
+            { price: "$3k", note: "CMS & app integration" },
+          ],
+        },
+      ],
+      unsure:
+        "Not sure what you need? Tell us the problem — we'll scope it, then you get a fixed price.",
+      cta: "Get a fixed quote",
     },
     industries: {
       eyebrow: "Who we work with",
@@ -393,8 +468,8 @@ const translations = {
     hero: {
       eyebrowChips: ["Rekayasa dipimpin founder", "Berbasis di Indonesia"],
       headline: {
-        line1: "Software Tepat,",
-        line2: "Bisnis Melesat.",
+        line1: "Software Tepat",
+        line2: " Bisnis Melesat.",
       },
       sub: "Kami membangun sistem bisnis custom, aplikasi web, aplikasi mobile, dan integrasi seputar cara perusahaan Anda benar-benar bekerja.",
       cta: "Hubungi kami",
@@ -539,37 +614,112 @@ const translations = {
     },
     pricing: {
       eyebrow: "Harga",
-      title: "Dihargai berdasarkan kompleksitas, tenggat, dan arus kas Anda.",
-      sub: "Kami memberi harga untuk proyeknya, bukan jam kerjanya. Anda mendapat satu penawaran jelas untuk ruang lingkup yang terdefinisi — dan Anda tahu angkanya sebelum kami mulai.",
-      featured: {
-        eyebrow: "Cara kami memberi harga",
-        title: "Proyek dengan lingkup jelas",
-        factors: [
-          {
-            label: "Kompleksitas",
-            description:
-              "Seberapa banyak sistem, integrasi, dan alur kerja yang disentuh proyek.",
-          },
-          {
-            label: "Tenggat",
-            description: "Seberapa cepat Anda membutuhkannya berjalan.",
-          },
-          {
-            label: "Arus kas",
-            description:
-              "Kami menyusun penawaran di sekitar anggaran Anda agar tetap sehat untuk bisnis.",
-          },
-        ],
-        cta: "Ceritakan masalahnya, dapatkan penawaran tetap",
-      },
-      secondary: {
-        eyebrow: "Fleksibel",
-        title: "Ukuran berbeda",
-        description:
-          "Lebih besar atau lebih kecil — jika masalah dan peluangnya cocok, kami kerjakan.",
-        items: ["Penawaran tetap custom", "Lingkup disepakati sebelum mulai"],
-        cta: "Bicara dengan kami",
-      },
+      title: "Harga tetap, mulai dari Rp1,5 juta.",
+      sub: "Setiap proyek dikerjakan dalam satu lingkup yang jelas dengan harga tetap — Anda tahu angkanya sebelum kami mulai.",
+      intro:
+        "Harga di bawah adalah titik awal. Pilih produk untuk melihat tiap tingkatannya. Setiap proyek mendapat satu penawaran tetap setelah percakapan singkat.",
+      pickLabel: "Pilih produk",
+      fromLabel: "mulai dari",
+      warrantyLabel: "Garansi pemeliharaan",
+      warrantyNote:
+        "Setiap tier sudah termasuk garansi pemeliharaan — perbaikan bug dan perubahan kecil gratis selama periode tertera.",
+      tiers: [
+        {
+          name: "Basic",
+          tagline:
+            "Solusi fokus yang memecahkan satu kebutuhan. Cepat jadi dan mudah diurus — cara paling bersih untuk memulai.",
+          warranty: "1 bulan",
+        },
+        {
+          name: "Professional",
+          tagline:
+            "Sistem custom lengkap yang dibangun mengikuti alur kerja Anda — data, laporan, dan otomasi jadi satu. Paling banyak dipilih bisnis.",
+          warranty: "3 bulan",
+        },
+        {
+          name: "Enterprise",
+          tagline:
+            "Satu platform yang terhubung — web, mobile, dan integrasi bekerja bersama. Dibangun untuk tim yang mengandalkannya setiap hari.",
+          warranty: "6 bulan",
+        },
+      ],
+      services: [
+        {
+          id: "landing",
+          code: "01",
+          label: "Landing page",
+          tiers: [
+            { price: "Rp1,5jt" },
+            { price: "Rp2,5jt" },
+            { price: "Rp4,5jt", note: "+CMS" },
+          ],
+        },
+        {
+          id: "company-profile",
+          code: "02",
+          label: "Profil perusahaan",
+          tiers: [
+            { price: "Rp3,5jt" },
+            { price: "Rp6jt" },
+            { price: "Rp12jt", note: "+CMS, multibahasa" },
+          ],
+        },
+        {
+          id: "ecommerce",
+          code: "03",
+          label: "E-commerce",
+          tiers: [
+            { price: "Rp8jt" },
+            { price: "Rp15jt" },
+            { price: "Rp30jt", note: "web + mobile" },
+          ],
+        },
+        {
+          id: "pos",
+          code: "04",
+          label: "Sistem POS",
+          tiers: [
+            { price: "Rp10jt" },
+            { price: "Rp18jt" },
+            { price: "Rp35jt", note: "POS + pemesanan mobile" },
+          ],
+        },
+        {
+          id: "business-system",
+          code: "05",
+          label: "Sistem bisnis",
+          tiers: [
+            { price: "Rp12jt" },
+            { price: "Rp22jt" },
+            { price: "Rp45jt", note: "web + mobile lapangan" },
+          ],
+        },
+        {
+          id: "web-app",
+          code: "06",
+          label: "Aplikasi web / portal",
+          tiers: [{ price: "Rp12jt" }, { price: "Rp25jt" }, { price: "Rp50jt" }],
+        },
+        {
+          id: "mobile-app",
+          code: "07",
+          label: "Aplikasi mobile",
+          tiers: [{ price: "Rp15jt" }, { price: "Rp30jt" }, { price: "Rp60jt" }],
+        },
+        {
+          id: "integration",
+          code: "08",
+          label: "Integrasi sistem",
+          tiers: [
+            { price: "Rp5jt" },
+            { price: "Rp10jt" },
+            { price: "Rp20jt", note: "+integrasi CMS & aplikasi" },
+          ],
+        },
+      ],
+      unsure:
+        "Tidak yakin butuh apa? Ceritakan masalahnya — kami yang menyusun lingkupnya, lalu Anda dapat harga tetap.",
+      cta: "Dapatkan penawaran tetap",
     },
     industries: {
       eyebrow: "Siapa yang kami layani",

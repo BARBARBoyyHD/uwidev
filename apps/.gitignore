@@ -18,6 +18,9 @@
 /out/
 .open-next/
 
+# opennext / cloudflare
+/.open-next/
+
 # production
 /build
 

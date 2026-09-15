@@ -1,5 +1,5 @@
 import { Quote, Terminal } from "lucide-react";
-import Reveal from "@/components/Reveal";
+import Reveal from "@/components/ui/Reveal";
 import { t, type Locale } from "@/lib/lang";
 
 export default function AboutSection({ locale }: { locale: Locale }) {
