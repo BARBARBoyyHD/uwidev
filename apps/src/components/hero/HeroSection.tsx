@@ -4,7 +4,6 @@ import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 import type { ReactNode } from "react";
 import dynamic from "next/dynamic";
-import HeroSystemVisual from "@/components/hero/HeroSystemVisual";
 import { useHydrated, useReducedMotion } from "@/lib/hydrated";
 import { t, type Locale } from "@/lib/lang";
 
@@ -15,7 +14,6 @@ const BEATS = {
   headline: 0,
   sub: 0.15,
   cta: 0.3,
-  visual: 0.45,
 };
 
 /**
@@ -92,11 +90,11 @@ export default function HeroSection({ locale }: { locale: Locale }) {
       </div>
 
       <div className="relative mx-auto w-full max-w-7xl px-4 pb-32 pt-24 md:px-8 md:pb-48 md:pt-32">
-        <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-12 lg:gap-8">
-          <div className="lg:col-span-7">
-            {/* hairline chips */}
-            <HeroBeat delay={BEATS.headline}>
-              <div className="mb-6 flex flex-wrap items-center gap-2">
+        <div className="mx-auto flex max-w-3xl flex-col items-center text-center">
+          <HeroBeat delay={BEATS.headline}>
+            <div>
+              {/* hairline chips */}
+              <div className="mb-6 flex flex-wrap items-center justify-center gap-2">
                 {dict.eyebrowChips.map((chip) => (
                   <span
                     key={chip}
@@ -113,52 +111,44 @@ export default function HeroSection({ locale }: { locale: Locale }) {
                 <br className="hidden sm:block" />
                 <span className="text-white">{dict.headline.line2}</span>
               </h1>
-            </HeroBeat>
-            <HeroBeat delay={BEATS.sub}>
-              <p className="mb-8 max-w-lg text-base leading-relaxed text-ink-on-dark-muted md:text-lg">
-                {dict.sub}
-              </p>
-            </HeroBeat>
+            </div>
+          </HeroBeat>
+          <HeroBeat delay={BEATS.sub}>
+            <p className="mx-auto mb-8 max-w-lg text-base leading-relaxed text-ink-on-dark-muted md:text-lg">
+              {dict.sub}
+            </p>
+          </HeroBeat>
 
-            <HeroBeat delay={BEATS.cta}>
-              <div className="flex flex-col items-start gap-4 sm:flex-row sm:items-center">
-                {/* split CTA: label segment + attached arrow segment */}
-                <a
-                  href="#contact"
-                  className="group inline-flex items-center overflow-hidden rounded-[10px] transition-[filter] duration-150 hover:brightness-110"
-                >
-                  <div className="flex items-center bg-electric px-6 py-3.5 text-sm font-medium text-white gap-2">
-                    <span className="flex items-center text-sm font-medium text-white">
-                      {dict.cta}
-                    </span>
-                    <span className="flex items-center text-white">
-                      <ArrowRight
-                        className="h-4 w-4"
-                        strokeWidth={1.5}
-                        aria-hidden
-                      />
-                    </span>
-                  </div>
-                </a>
-                <span className="font-mono text-xs text-ink-on-dark-muted sm:border-l sm:border-white/15 sm:py-1 sm:pl-4">
-                  {dict.supporting}
-                </span>
-              </div>
-            </HeroBeat>
-          </div>
-
-          <div className="lg:col-span-5 lg:sticky lg:top-16 lg:self-start">
-            <HeroBeat delay={BEATS.visual}>
-              <div className="overflow-hidden rounded-xl">
-                <HeroSystemVisual />
-              </div>
-            </HeroBeat>
-          </div>
+          <HeroBeat delay={BEATS.cta}>
+            <div className="flex flex-col items-center gap-4 sm:flex-row sm:items-center">
+              {/* split CTA: label segment + attached arrow segment */}
+              <a
+                href="#contact"
+                className="group inline-flex items-center overflow-hidden rounded-[10px] transition-[filter] duration-150 hover:brightness-110"
+              >
+                <div className="flex items-center gap-2 bg-electric px-6 py-3.5 text-sm font-medium text-white">
+                  <span className="flex items-center text-sm font-medium text-white">
+                    {dict.cta}
+                  </span>
+                  <span className="flex items-center text-white">
+                    <ArrowRight
+                      className="h-4 w-4"
+                      strokeWidth={1.5}
+                      aria-hidden
+                    />
+                  </span>
+                </div>
+              </a>
+              <span className="font-mono text-xs text-ink-on-dark-muted sm:border-l sm:border-white/15 sm:py-1 sm:pl-4">
+                {dict.supporting}
+              </span>
+            </div>
+          </HeroBeat>
         </div>
 
         {/* Capability strip — the dark zone hands off into the light body */}
         <div className="mt-16 border-t border-white/10 pt-6 md:mt-20">
-          <ul className="flex flex-wrap items-center gap-x-8 gap-y-3 font-mono text-[11px] font-medium text-ink-on-dark-muted">
+          <ul className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 font-mono text-[11px] font-medium text-ink-on-dark-muted">
             {dict.capabilities.map((capability, index) => (
               <li key={capability} className="flex items-center gap-2">
                 <span className="h-1 w-1 rounded-full bg-accent" aria-hidden />
