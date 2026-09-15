@@ -1,5 +1,5 @@
 import { ArrowRight } from "lucide-react";
-import Reveal from "@/components/Reveal";
+import Reveal from "@/components/ui/Reveal";
 import { workData } from "@/lib/worksData";
 import { t, type Locale } from "@/lib/lang";
 

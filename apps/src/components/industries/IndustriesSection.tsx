@@ -7,7 +7,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
-import Reveal from "@/components/Reveal";
+import Reveal from "@/components/ui/Reveal";
 import { t, type Locale } from "@/lib/lang";
 
 // Icons are presentation, not content — paired by index with the localized

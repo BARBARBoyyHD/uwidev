@@ -1,4 +1,4 @@
-import Reveal from "@/components/Reveal";
+import Reveal from "@/components/ui/Reveal";
 import { t, type Locale } from "@/lib/lang";
 
 export default function ProblemSection({ locale }: { locale: Locale }) {
