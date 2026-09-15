@@ -17,6 +17,9 @@ const securityHeaders = [
 const nextConfig: NextConfig = {
   /* config options here */
   reactCompiler: true,
+  experimental: {
+    optimizePackageImports: ["lucide-react", "framer-motion"],
+  },
   // No full CSP: Next 16 hydration inline scripts and the JSON-LD script
   // in layout.tsx would require a nonce/hash setup; skipping it deliberately.
   async headers() {

@@ -43,6 +43,7 @@ export default function Reveal({
           whileInView={{ opacity: 1, y: 0, scale: 1 }}
           viewport={{ once: true, amount: 0.25 }}
           transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1], delay }}
+          style={{ willChange: "transform, opacity" }}
         >
           {children}
         </motion.div>

@@ -10,6 +10,7 @@ import { t, type Locale } from "@/lib/lang";
 const GhostFibers = dynamic(() => import("@/components/hero/GhostFibers"), {
   ssr: false,
 });
+
 const BEATS = {
   headline: 0,
   sub: 0.15,

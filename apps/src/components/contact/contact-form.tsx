@@ -165,7 +165,7 @@ export default function ContactForm({ locale }: { locale: Locale }) {
       <div className="mt-8 flex flex-col items-start gap-3 sm:flex-row sm:items-center">
         <button
           type="submit"
-          className="inline-flex items-center gap-2 rounded-[10px] bg-accent px-6 py-3.5 text-sm font-medium text-white transition-colors duration-150 hover:bg-electric"
+          className="inline-flex items-center gap-2 rounded-[10px] bg-accent px-6 py-3.5 text-sm font-medium text-void transition-colors duration-150 hover:bg-electric"
         >
           {dict.submit}
           <ArrowRight className="h-4 w-4" strokeWidth={1.5} aria-hidden />
