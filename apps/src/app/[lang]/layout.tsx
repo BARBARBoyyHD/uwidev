@@ -19,7 +19,7 @@ const jetBrainsMono = JetBrains_Mono({
   display: "swap",
 });
 
-const SITE_URL = "https://uwidev.com";
+const SITE_URL = "https://zavron.dev";
 
 // Per Next.js i18n routing: this layout under the dynamic segment is the root
 // layout (it owns <html> and <body>), and every page of the site lives under
@@ -100,7 +100,7 @@ export default async function RootLayout({
               "@context": "https://schema.org",
               "@type": "Organization",
               name: "Zavron",
-              url: "https://uwidev.com",
+              url: "https://zavron.dev",
               description:
                 "Software built around the way your business works. Custom business systems, web applications, mobile applications, and system integrations.",
               email: "muhammadnahrulhayat98@gmail.com",
