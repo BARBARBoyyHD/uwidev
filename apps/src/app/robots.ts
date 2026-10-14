@@ -19,6 +19,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://uwidev.com/sitemap.xml",
+    sitemap: "https://zavron.dev/sitemap.xml",
   };
 }

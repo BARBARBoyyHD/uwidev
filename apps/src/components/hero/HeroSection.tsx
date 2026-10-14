@@ -78,8 +78,8 @@ export default function HeroSection({ locale }: { locale: Locale }) {
         aria-hidden
       >
         <GhostFibers
-          lineColor="#0B1E5B"
-          glowColor="#3D5AFE"
+          lineColor="#241663"
+          glowColor="#7C4DFF"
           layers={2}
           scale={2}
           speed={0.15}

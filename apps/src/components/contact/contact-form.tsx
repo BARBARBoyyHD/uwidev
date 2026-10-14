@@ -137,7 +137,7 @@ export default function ContactForm({ locale }: { locale: Locale }) {
             name="budget"
             value={form.budget}
             onChange={handleChange}
-            className={`${inputClass} bg-[#0A1030]`}
+            className={`${inputClass} bg-[#120C33]`}
           >
             {dict.budgetOptions.map((option) => (
               <option key={option}>{option}</option>
@@ -153,7 +153,7 @@ export default function ContactForm({ locale }: { locale: Locale }) {
             name="timeline"
             value={form.timeline}
             onChange={handleChange}
-            className={`${inputClass} bg-[#0A1030]`}
+            className={`${inputClass} bg-[#120C33]`}
           >
             {dict.timelineOptions.map((option) => (
               <option key={option}>{option}</option>

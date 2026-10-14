@@ -1,5 +1,5 @@
 /**
- * Uwi_Dev i18n — the dictionary IS the i18n layer.
+ * Zavron i18n — the dictionary IS the i18n layer.
  * No next-intl, no context, no cookies. Server components read `t(locale)`,
  * client components receive `locale` as a prop from their server parents.
  */
@@ -15,14 +15,14 @@ export function isLocale(value: string): value is Locale {
 const translations = {
   en: {
     meta: {
-      title: "Uwi_Dev — Software built around your business",
+      title: "Zavron — Software built around your business",
       description:
         "Custom business systems, web applications, mobile apps, and integrations built around the way your company actually works.",
     },
     common: {
       skipToContent: "Skip to content",
       changeLanguage: "Change language",
-      chatWhatsApp: "Chat with Uwi_Dev on WhatsApp",
+      chatWhatsApp: "Chat with Zavron on WhatsApp",
     },
     nav: {
       primary: "Primary",
@@ -41,7 +41,7 @@ const translations = {
       menu: "Menu",
     },
     footer: {
-      studio: "Uwi_Dev Studio",
+      studio: "Zavron Studio",
       copyright: "Small by design. Serious about engineering.",
     },
     hero: {
@@ -337,7 +337,7 @@ const translations = {
         line2: "Serious about engineering.",
       },
       paragraphs: [
-        "Uwi_Dev is a small, founder-led software studio. There are no layers of account managers and no handoffs to junior contractors — the engineers who scope your system are the engineers who build it.",
+        "Zavron is a small, founder-led software studio. There are no layers of account managers and no handoffs to junior contractors — the engineers who scope your system are the engineers who build it.",
         "You talk directly to the people writing the code. We stay close to your stakeholders, and we measure success by the operational efficiency you actually gain.",
       ],
       facts: [
@@ -347,7 +347,7 @@ const translations = {
       ],
       quote:
         "“The most elegant piece of software is one that quietly removes five hours of daily operational friction, so a business can focus on serving its customers instead of wrestling with technology.”",
-      caption: "Uwi_Dev — Lead Architect",
+      caption: "Zavron — Lead Architect",
       captionSub: "Founder-led studio",
     },
     testimonials: {
@@ -436,14 +436,14 @@ const translations = {
   },
   id: {
     meta: {
-      title: "Uwi_Dev — Perangkat lunak seputar bisnis Anda",
+      title: "Zavron — Perangkat lunak seputar bisnis Anda",
       description:
         "Sistem bisnis custom, aplikasi web, aplikasi mobile, dan integrasi yang dibangun seputar cara perusahaan Anda benar-benar bekerja.",
     },
     common: {
       skipToContent: "Langsung ke konten",
       changeLanguage: "Ganti bahasa",
-      chatWhatsApp: "Chat dengan Uwi_Dev di WhatsApp",
+      chatWhatsApp: "Chat dengan Zavron di WhatsApp",
     },
     nav: {
       primary: "Utama",
@@ -462,7 +462,7 @@ const translations = {
       menu: "Menu",
     },
     footer: {
-      studio: "Uwi_Dev Studio",
+      studio: "Zavron Studio",
       copyright: "Kecil oleh desain, serius dalam engineering.",
     },
     hero: {
@@ -758,7 +758,7 @@ const translations = {
         line2: "Serius soal engineering.",
       },
       paragraphs: [
-        "Uwi_Dev adalah studio software kecil yang dipimpin founder. Tidak ada lapisan account manager, tidak ada serah-terima ke kontraktor junior — engineer yang menyusun sistem Anda adalah engineer yang membangunnya.",
+        "Zavron adalah studio software kecil yang dipimpin founder. Tidak ada lapisan account manager, tidak ada serah-terima ke kontraktor junior — engineer yang menyusun sistem Anda adalah engineer yang membangunnya.",
         "Anda berbicara langsung dengan orang-orang yang menulis kode. Kami dekat dengan pemangku kepentingan Anda, dan kami mengukur keberhasilan dari efisiensi operasional yang benar-benar Anda dapatkan.",
       ],
       facts: [
@@ -768,7 +768,7 @@ const translations = {
       ],
       quote:
         "“Software paling elegan adalah yang diam-diam menghapus lima jam gesekan operasional harian, sehingga bisnis bisa fokus melayani pelanggannya alih-alih berkelahi dengan teknologi.”",
-      caption: "Uwi_Dev — Arsitek Utama",
+      caption: "Zavron — Arsitek Utama",
       captionSub: "Studio dipimpin founder",
     },
     testimonials: {
