@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "Uwi_Dev — Software built around the way your business works";
+export const alt = "Zavron — Software built around the way your business works";
 export const size = {
   width: 1200,
   height: 637,
@@ -27,7 +27,7 @@ export default function Image() {
           style={{
             width: 64,
             height: 2,
-            background: "#3D5AFE",
+            background: "#7C4DFF",
             marginBottom: 40,
           }}
         />
@@ -39,12 +39,12 @@ export default function Image() {
             color: "#FFFFFF",
           }}
         >
-          Uwi_Dev
+          Zavron
         </div>
         <div
           style={{
             fontSize: 30,
-            color: "#8B93A7",
+            color: "#9189B3",
             marginTop: 16,
             maxWidth: 760,
           }}
@@ -54,7 +54,7 @@ export default function Image() {
         <div
           style={{
             fontSize: 20,
-            color: "#8B93A7",
+            color: "#9189B3",
             marginTop: 48,
             fontFamily:
               "ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace",

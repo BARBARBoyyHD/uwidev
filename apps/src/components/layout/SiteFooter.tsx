@@ -28,7 +28,7 @@ export default function SiteFooter({ locale }: { locale: Locale }) {
           </nav>
         </div>
         <div className="flex flex-col items-start justify-between gap-4 font-mono text-[11px] sm:flex-row sm:items-center">
-          <span>© 2026 Uwi_Dev. {dict.footer.copyright}</span>
+          <span>© 2026 Zavron. {dict.footer.copyright}</span>
           <a
             href="mailto:muhammadnahrulhayat98@gmail.com"
             className="inline-flex items-center gap-1.5 transition-colors duration-150 hover:text-white"

@@ -55,7 +55,7 @@ export async function generateMetadata({
     openGraph: {
       type: "website",
       url: `${SITE_URL}${canonical}`,
-      siteName: "Uwi_Dev",
+      siteName: "Zavron",
       title: dict.meta.title,
       description: dict.meta.description,
       locale: lang === "en" ? "en_US" : "id_ID",
@@ -99,7 +99,7 @@ export default async function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              name: "Uwi_Dev",
+              name: "Zavron",
               url: "https://uwidev.com",
               description:
                 "Software built around the way your business works. Custom business systems, web applications, mobile applications, and system integrations.",

@@ -97,7 +97,7 @@ export default function SiteHeader({ locale }: { locale: Locale }) {
           className="flex items-center gap-2.5 font-mono text-[13px] font-semibold tracking-tight text-ink-on-dark transition-colors duration-150 hover:text-white"
         >
           <Terminal className="h-4 w-4 text-accent" strokeWidth={1.5} aria-hidden />
-          <span>Uwi_Dev</span>
+          <span>Zavron</span>
         </a>
 
         <nav className="hidden items-center gap-8 md:flex" aria-label={dict.nav.primary}>

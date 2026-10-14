@@ -17,24 +17,24 @@ Use this arc for a company profile site as: **Hero = what we watch over / what w
 | Token | Hex | Use |
 |---|---|---|
 | `--bg-void` | `#05070F` | Top of hero, header bar background |
-| `--bg-deep-blue` | `#0B1E5B` | Mid-hero gradient stop |
-| `--bg-electric-blue` | `#3D5AFE` | Lower-hero gradient stop, primary accent |
-| `--bg-fade-light` | `#EAF0FB` | Transition zone into the light section |
+| `--bg-deep-blue` | `#241663` | Mid-hero gradient stop |
+| `--bg-electric-blue` | `#7C4DFF` | Lower-hero gradient stop, primary accent |
+| `--bg-fade-light` | `#EFEDFB` | Transition zone into the light section |
 | `--bg-surface` | `#FFFFFF` | Body sections, cards |
-| `--bg-surface-muted` | `#F5F6F8` | Alternate section backgrounds |
+| `--bg-surface-muted` | `#F6F5FA` | Alternate section backgrounds |
 | `--ink-primary` | `#0B0D12` | Headlines on light backgrounds |
 | `--ink-secondary` | `#5B6270` | Body copy, captions |
 | `--ink-on-dark` | `#F4F6FB` | Headlines on dark hero |
-| `--ink-on-dark-muted` | `#8B93A7` | Subtext / labels on dark hero |
-| `--line-hairline` | `#E4E7ED` | Card borders, dividers on light bg |
+| `--ink-on-dark-muted` | `#9189B3` | Subtext / labels on dark hero |
+| `--line-hairline` | `#E7E5ED` | Card borders, dividers on light bg |
 | `--line-hairline-dark` | `rgba(255,255,255,0.14)` | Outline strokes in hero illustration |
-| `--accent-blue` | `#3D6BFF` | Buttons, links, active states |
+| `--accent-blue` | `#8B5CF6` | Buttons, links, active states |
 | `--status-positive` | `#1F9D55` | "Contained" tags |
 | `--status-alert` | `#D5432B` | "Escalated" tags |
 
 Gradient recipe for the hero:
 ```css
-background: radial-gradient(120% 90% at 70% 0%, #17246B 0%, #0A1030 45%, #05070F 100%);
+background: radial-gradient(120% 90% at 70% 0%, #2A1A6E 0%, #120C33 45%, #05070F 100%);
 ```
 Body sections then sit on flat `--bg-surface` or `--bg-surface-muted` — **no gradients below the hero.**
 
