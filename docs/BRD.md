@@ -1,11 +1,11 @@
-Absolutely. Since this is the **BRD (Business Requirements Document)** for the Uwi_Dev company profile website, I’d structure it as a real project document—not as a design prompt. It should define **business goals, users, requirements, scope, content, workflows, and acceptance criteria**, while leaving the visual implementation to the Stitch/design specification.
+Absolutely. Since this is the **BRD (Business Requirements Document)** for the Zavron company profile website, I’d structure it as a real project document—not as a design prompt. It should define **business goals, users, requirements, scope, content, workflows, and acceptance criteria**, while leaving the visual implementation to the Stitch/design specification.
 
-# Uwi_Dev Company Profile Website
+# Zavron Company Profile Website
 
 ## Business Requirements Document (BRD)
 
 **Document Version:** 1.0
-**Project:** Uwi_Dev Company Profile Website
+**Project:** Zavron Company Profile Website
 **Document Type:** Business Requirements Document
 **Status:** Draft / Initial Baseline
 **Primary Platform:** Responsive Web
@@ -15,17 +15,17 @@ Absolutely. Since this is the **BRD (Business Requirements Document)** for the U
 
 ## 1. Executive Summary
 
-Uwi_Dev requires a professional company profile website that establishes its identity as a **small, founder-led software engineering studio** specializing in custom business systems, web applications, mobile applications, and system integrations.
+Zavron requires a professional company profile website that establishes its identity as a **small, founder-led software engineering studio** specializing in custom business systems, web applications, mobile applications, and system integrations.
 
 The website is not intended to function merely as an informational company profile.
 
 Its primary purpose is to communicate:
 
-1. What Uwi_Dev does.
-2. Which business problems Uwi_Dev solves.
-3. Why businesses should work with Uwi_Dev.
-4. How Uwi_Dev approaches software development.
-5. What types of businesses Uwi_Dev can work with.
+1. What Zavron does.
+2. Which business problems Zavron solves.
+3. Why businesses should work with Zavron.
+4. How Zavron approaches software development.
+5. What types of businesses Zavron can work with.
 6. How potential clients can start a conversation.
 
 The website must balance **technical credibility with human friendliness**.
@@ -34,7 +34,7 @@ The intended perception is:
 
 > **“These people understand technology, but they also understand my business.”**
 
-The website should ultimately make a potential customer comfortable enough to contact Uwi_Dev about a software project.
+The website should ultimately make a potential customer comfortable enough to contact Zavron about a software project.
 
 ---
 
@@ -42,9 +42,9 @@ The website should ultimately make a potential customer comfortable enough to co
 
 ## 2.1 Company
 
-**Uwi_Dev**
+**Zavron**
 
-Uwi_Dev is a software engineering studio focused on building software around the operational needs of businesses.
+Zavron is a software engineering studio focused on building software around the operational needs of businesses.
 
 The company focuses on custom solutions rather than forcing businesses into generic software products.
 
@@ -52,7 +52,7 @@ The company focuses on custom solutions rather than forcing businesses into gene
 
 ## 2.2 Business Model
 
-Uwi_Dev primarily operates using a **fixed project pricing model**.
+Zavron primarily operates using a **fixed project pricing model**.
 
 The intended project lifecycle is:
 
@@ -87,9 +87,9 @@ This creates operational friction.
 
 # 4. Business Opportunity
 
-Uwi_Dev can provide businesses with access to professional software engineering without requiring them to establish an internal engineering team.
+Zavron can provide businesses with access to professional software engineering without requiring them to establish an internal engineering team.
 
-The opportunity is to position Uwi_Dev as:
+The opportunity is to position Zavron as:
 
 > **A software engineering partner that understands the business problem first and builds the technology around it.**
 
@@ -109,9 +109,9 @@ The website must support the following business objectives.
 
 ## BO-01 — Establish Brand Identity
 
-Create a clear and recognizable identity for Uwi_Dev.
+Create a clear and recognizable identity for Zavron.
 
-The website should communicate that Uwi_Dev is:
+The website should communicate that Zavron is:
 
 * technically capable
 * professional
@@ -122,9 +122,9 @@ The website should communicate that Uwi_Dev is:
 
 ---
 
-## BO-02 — Explain Uwi_Dev's Value Proposition
+## BO-02 — Explain Zavron's Value Proposition
 
-Visitors must quickly understand that Uwi_Dev builds:
+Visitors must quickly understand that Zavron builds:
 
 * custom business systems
 * web applications
@@ -137,7 +137,7 @@ The website must emphasize that these solutions are designed around the customer
 
 ## BO-03 — Generate Leads
 
-The website must provide a clear path for potential customers to contact Uwi_Dev.
+The website must provide a clear path for potential customers to contact Zavron.
 
 Primary conversion:
 
@@ -164,7 +164,7 @@ The website must **not fabricate credibility**.
 
 ## BO-05 — Build Human Trust
 
-Potential clients should feel that working with Uwi_Dev means communicating directly with real people.
+Potential clients should feel that working with Zavron means communicating directly with real people.
 
 The website should communicate:
 
@@ -174,7 +174,7 @@ The website should communicate:
 
 ## BO-06 — Support Future Growth
 
-The website must be structured so that Uwi_Dev can later add:
+The website must be structured so that Zavron can later add:
 
 * real case studies
 * client projects
@@ -207,11 +207,11 @@ Examples:
 
 They want to:
 
-* understand whether Uwi_Dev can solve their problem
-* understand what Uwi_Dev builds
+* understand whether Zavron can solve their problem
+* understand what Zavron builds
 * determine whether the company is trustworthy
 * understand how the engagement works
-* contact Uwi_Dev
+* contact Zavron
 
 ---
 
@@ -251,7 +251,7 @@ The website should address the following visitor questions.
 
 | Question                             | Website Response                          |
 | ------------------------------------ | ----------------------------------------- |
-| What does Uwi_Dev do?                | Clear positioning and service explanation |
+| What does Zavron do?                | Clear positioning and service explanation |
 | Can they solve my business problem?  | Business-system capabilities              |
 | Can they build custom software?      | Custom development positioning            |
 | Can they build mobile apps?          | Mobile application service                |
@@ -311,7 +311,7 @@ Primary CTA:
 
 The hero must immediately communicate:
 
-* what Uwi_Dev does
+* what Zavron does
 * its core positioning
 * primary CTA
 
@@ -363,7 +363,7 @@ Integrations between APIs, payment gateways, WhatsApp, ERP systems, and internal
 
 ### FR-06 — Development Process
 
-The website must communicate the Uwi_Dev project lifecycle.
+The website must communicate the Zavron project lifecycle.
 
 1. Discovery
 2. Architecture
@@ -371,7 +371,7 @@ The website must communicate the Uwi_Dev project lifecycle.
 4. Deployment
 5. Ongoing Engineering
 
-The process should demonstrate that Uwi_Dev is involved beyond simply writing code.
+The process should demonstrate that Zavron is involved beyond simply writing code.
 
 ---
 
@@ -379,7 +379,7 @@ The process should demonstrate that Uwi_Dev is involved beyond simply writing co
 
 The website must provide a dedicated area for showcasing projects.
 
-Because Uwi_Dev is a new company, the initial implementation must **not invent clients or project outcomes**.
+Because Zavron is a new company, the initial implementation must **not invent clients or project outcomes**.
 
 The section should support future case studies.
 
@@ -395,7 +395,7 @@ Each case study should eventually contain:
 
 ### FR-08 — Industries / Customer Types
 
-The website should communicate that Uwi_Dev can work with:
+The website should communicate that Zavron can work with:
 
 * Coffee shops / restaurants
 * Retail
@@ -410,7 +410,7 @@ The website must not imply that these are the only industries served.
 
 ### FR-09 — About
 
-The website must communicate Uwi_Dev's founder-led nature.
+The website must communicate Zavron's founder-led nature.
 
 Core positioning:
 
@@ -543,7 +543,7 @@ The website should support basic search engine optimization through:
 The intended visitor journey is:
 
 ```text
-What is Uwi_Dev?
+What is Zavron?
         ↓
 They understand my business problem
         ↓
@@ -566,7 +566,7 @@ The website should avoid forcing users through unnecessary interactions.
 
 # 13. Design Requirements
 
-The visual design should follow the existing Uwi_Dev visual source of truth:
+The visual design should follow the existing Zavron visual source of truth:
 
 **Dark-to-Light Security Console**
 
@@ -659,7 +659,7 @@ The website must NOT:
 * fabricate team members
 * claim years of experience that do not exist
 * use fake client logos
-* pretend Uwi_Dev is a large organization
+* pretend Zavron is a large organization
 
 The website must also avoid:
 
@@ -682,7 +682,7 @@ The website must also avoid:
 # 16. Information Architecture
 
 ```text
-Uwi_Dev
+Zavron
 │
 ├── Home
 │   ├── Hero
@@ -692,7 +692,7 @@ Uwi_Dev
 │   ├── How We Work
 │   ├── Selected Work
 │   ├── Who We Work With
-│   ├── About Uwi_Dev
+│   ├── About Zavron
 │   └── Final CTA
 │
 ├── What We Build
@@ -771,14 +771,14 @@ A more detailed project discovery form.
 
 The BRD currently assumes:
 
-1. Uwi_Dev is founder-led.
-2. Uwi_Dev is initially operating with a small team structure.
+1. Zavron is founder-led.
+2. Zavron is initially operating with a small team structure.
 3. The company does not currently have a large portfolio of public clients.
 4. The primary business model is project-based development.
 5. Fixed project pricing is preferred.
 6. The website's primary business objective is lead generation.
 7. The initial target project range is approximately Rp5–10 million.
-8. Uwi_Dev remains open to different project sizes when the opportunity is appropriate.
+8. Zavron remains open to different project sizes when the opportunity is appropriate.
 
 ---
 
@@ -795,7 +795,7 @@ Credibility must come from:
 * honest positioning
 * quality of presentation
 
-The design should remain effective even before Uwi_Dev has accumulated a large portfolio.
+The design should remain effective even before Zavron has accumulated a large portfolio.
 
 ---
 
@@ -803,7 +803,7 @@ The design should remain effective even before Uwi_Dev has accumulated a large p
 
 The website can be considered successful when a new visitor can answer the following questions quickly:
 
-### 1. What does Uwi_Dev do?
+### 1. What does Zavron do?
 
 **Custom software and business systems.**
 
@@ -833,7 +833,7 @@ The website can be considered successful when a new visitor can answer the follo
 
 The initial website should satisfy the following:
 
-* [ ] Uwi_Dev identity is immediately visible.
+* [ ] Zavron identity is immediately visible.
 * [ ] Core positioning is understandable within the hero.
 * [ ] Primary CTA is clearly visible.
 * [ ] Services are clearly explained.
@@ -859,7 +859,7 @@ The website should ultimately communicate one simple idea:
 
 > **Your business is unique. Your software should be too.**
 
-Uwi_Dev should not sell technology for the sake of technology.
+Zavron should not sell technology for the sake of technology.
 
 It should sell the ability to understand a business problem and build software that makes the business work better.
 

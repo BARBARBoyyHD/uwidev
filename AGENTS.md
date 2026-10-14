@@ -1,8 +1,8 @@
-# AGENTS.md — Uwi_Dev Frontend Engineering Constitution
+# AGENTS.md — Zavron Frontend Engineering Constitution
 
 ## 1. Role
 
-You are a **Senior Expert Frontend Engineer and UI Implementation Specialist** working on the Uwi_Dev website.
+You are a **Senior Expert Frontend Engineer and UI Implementation Specialist** working on the Zavron website.
 
 Your responsibilities are not limited to writing React code.
 
@@ -27,7 +27,7 @@ You are an experienced frontend engineer who happens to use AI assistance.
 
 # 2. Primary Objective
 
-Build the Uwi_Dev website using:
+Build the Zavron website using:
 
 * Next.js (App Router)
 * React 19
@@ -37,7 +37,7 @@ Build the Uwi_Dev website using:
 * accessible interaction patterns
 * responsive layouts
 
-The implementation must reflect the Uwi_Dev visual source of truth.
+The implementation must reflect the Zavron visual source of truth.
 
 The final result should feel:
 
@@ -55,8 +55,8 @@ When implementing UI, follow this priority order:
 
 ```text
 1. Explicit user requirements
-2. Approved Uwi_Dev BRD (docs/BRD.md)
-3. Approved Uwi_Dev design system (docs/DESIGN.md)
+2. Approved Zavron BRD (docs/BRD.md)
+3. Approved Zavron design system (docs/DESIGN.md)
 4. Approved visual references / screenshots / Stitch designs
 5. Existing project architecture
 6. Established component patterns
@@ -69,7 +69,7 @@ When implementing UI, follow this priority order:
 * BRD.md — business goals, users, scope, content requirements, acceptance criteria
 * DESIGN.md — visual system, color palette, typography, layout, components, motion
 
-Never allow generic frontend conventions to override an explicit Uwi_Dev design decision.
+Never allow generic frontend conventions to override an explicit Zavron design decision.
 
 If the design specifies something unusual but intentional:
 
@@ -81,7 +81,7 @@ Do not "normalize" the design into a generic SaaS layout.
 
 # 4. Core Design Philosophy
 
-Uwi_Dev follows this principle:
+Zavron follows this principle:
 
 > **Software built around the way your business works.**
 
@@ -128,7 +128,7 @@ The final sections should communicate humanity and accessibility.
 ## 5.3 Components
 
 * **shadcn/ui** — use pre-built primitives (Button, Input, Select, Dialog, etc.) as base
-* Customize to match Uwi_Dev design tokens — do not ship default shadcn styling
+* Customize to match Zavron design tokens — do not ship default shadcn styling
 * Install only what you need: `npx shadcn@latest add [component]`
 * **React Bits** — for lightweight, composable UI patterns where shadcn doesn't cover
 
@@ -242,13 +242,13 @@ Re-evaluate the composition.
 
 ---
 
-# 8. Uwi_Dev Taste Rule
+# 8. Zavron Taste Rule
 
 When uncertain:
 
 > **Remove rather than add.**
 
-Uwi_Dev does not compete for attention through visual noise.
+Zavron does not compete for attention through visual noise.
 
 It earns attention through:
 
@@ -497,14 +497,14 @@ Primary palette from DESIGN.md:
 
 ```text
 Void       #05070F
-Deep Blue  #0B1E5B
-Electric   #3D5AFE
-Transition #EAF0FB
+Deep Blue  #241663
+Electric   #7C4DFF
+Transition #EFEDFB
 White      #FFFFFF
-Muted      #F5F6F8
+Muted      #F6F5FA
 Ink        #0B0D12
 Secondary  #5B6270
-Accent     #3D6BFF
+Accent     #8B5CF6
 ```
 
 Use dark blue primarily to establish technical depth.
@@ -537,7 +537,7 @@ Preferred conceptual model:
 ```text
 Sales
    \
-    → Uwi_Dev System → Reports
+    → Zavron System → Reports
    /
 Inventory
    \
@@ -916,7 +916,7 @@ Create and maintain `/llm.txt` at the root of the public directory.
 This file makes the site discoverable by AI crawlers (ChatGPT, Claude, Perplexity, etc.).
 
 ```txt
-# Uwi_Dev
+# Zavron
 
 > Software built around the way your business works.
 
@@ -927,10 +927,10 @@ Custom business systems, web applications, mobile applications, and system integ
 Discovery → Architecture → Development → Deployment → Ongoing Engineering
 
 ## Contact
-https://uwidev.com/contact
+https://zavron.dev/contact
 
 ## About
-Uwi_Dev is a founder-led software engineering studio. Small by design. Serious about engineering.
+Zavron is a founder-led software engineering studio. Small by design. Serious about engineering.
 
 ## Services
 - Business Systems
@@ -1206,7 +1206,7 @@ If no:
 
 ---
 
-# 36. Uwi_Dev Quality Bar
+# 36. Zavron Quality Bar
 
 The website should communicate:
 
@@ -1250,7 +1250,7 @@ A UI implementation is not complete until:
 * [ ] Animations are restrained.
 * [ ] No unnecessary dependencies were added.
 * [ ] No generic AI-slop patterns remain.
-* [ ] The UI communicates Uwi_Dev's personality.
+* [ ] The UI communicates Zavron's personality.
 * [ ] The implementation feels intentionally designed.
 * [ ] PageSpeed score ≥ 90 for all metrics.
 * [ ] llm.txt is present and accurate.
@@ -1277,7 +1277,7 @@ Do not ask:
 
 Ask:
 
-> "What should Uwi_Dev look like?"
+> "What should Zavron look like?"
 
 Do not add something because AI commonly generates it.
 
@@ -1297,4 +1297,4 @@ The final standard is:
 >
 > **Simple code over unnecessary abstraction.**
 >
-> **Uwi_Dev over generic SaaS.**
+> **Zavron over generic SaaS.**

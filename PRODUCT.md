@@ -18,15 +18,15 @@ Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS v4, Framer Motion, O
 
 ## Product Purpose
 
-Company profile website for Uwi_Dev. Primary objective is lead generation — make a potential customer comfortable enough to start a conversation about a software project. Communicates what Uwi_Dev does, which problems it solves, how it works, and why it's trustworthy.
+Company profile website for Zavron. Primary objective is lead generation — make a potential customer comfortable enough to start a conversation about a software project. Communicates what Zavron does, which problems it solves, how it works, and why it's trustworthy.
 
-Success: a new visitor can quickly answer what Uwi_Dev does, who it's for, what it can build, how it works, what makes it different, and how to make contact.
+Success: a new visitor can quickly answer what Zavron does, who it's for, what it can build, how it works, what makes it different, and how to make contact.
 
 ## Positioning
 
 > Software built around the way your business works.
 
-Uwi_Dev is a founder-led software engineering studio. Small by design. Serious about engineering. Differentiation comes from understanding the business problem first and building technology around it — not forcing businesses into generic software.
+Zavron is a founder-led software engineering studio. Small by design. Serious about engineering. Differentiation comes from understanding the business problem first and building technology around it — not forcing businesses into generic software.
 
 ## Operating Context
 
@@ -54,7 +54,7 @@ Fixed project pricing model, initially targeting Rp5–10 million range, open to
 
 ## Brand Commitments
 
-- **Name:** Uwi_Dev
+- **Name:** Zavron
 - **Voice:** Conversational, direct, confident, human, technically credible, easy to understand
 - **Tone principle:** Business first. Technology second.
 - **Personality:** Professional enough to trust. Personal enough to talk to.

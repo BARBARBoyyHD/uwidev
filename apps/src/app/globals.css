@@ -7,17 +7,17 @@
     Consolas, monospace;
 
   --color-void: #05070f;
-  --color-deep-blue: #0b1e5b;
-  --color-electric: #3d5afe;
-  --color-fade-light: #eaf0fb;
+  --color-deep-blue: #241663;
+  --color-electric: #7c4dff;
+  --color-fade-light: #efedfb;
   --color-surface: #ffffff;
-  --color-muted: #f5f6f8;
+  --color-muted: #f6f5fa;
   --color-ink: #0b0d12;
   --color-ink-secondary: #5b6270;
   --color-ink-on-dark: #f4f6fb;
-  --color-ink-on-dark-muted: #8b93a7;
-  --color-hairline: #e4e7ed;
-  --color-accent: #3d6bff;
+  --color-ink-on-dark-muted: #9189b3;
+  --color-hairline: #e7e5ed;
+  --color-accent: #8b5cf6;
   --color-positive: #1f9d55;
   --color-alert: #d5432b;
 }
@@ -49,8 +49,8 @@ body {
 .hero-radial-mesh {
   background: radial-gradient(
     120% 90% at 70% 0%,
-    #17246b 0%,
-    #0a1030 45%,
+    #2a1a6e 0%,
+    #120c33 45%,
     #05070f 100%
   );
 }

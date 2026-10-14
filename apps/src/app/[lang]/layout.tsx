@@ -19,7 +19,7 @@ const jetBrainsMono = JetBrains_Mono({
   display: "swap",
 });
 
-const SITE_URL = "https://uwidev.com";
+const SITE_URL = "https://zavron.dev";
 
 // Per Next.js i18n routing: this layout under the dynamic segment is the root
 // layout (it owns <html> and <body>), and every page of the site lives under
@@ -55,7 +55,7 @@ export async function generateMetadata({
     openGraph: {
       type: "website",
       url: `${SITE_URL}${canonical}`,
-      siteName: "Uwi_Dev",
+      siteName: "Zavron",
       title: dict.meta.title,
       description: dict.meta.description,
       locale: lang === "en" ? "en_US" : "id_ID",
@@ -99,8 +99,8 @@ export default async function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              name: "Uwi_Dev",
-              url: "https://uwidev.com",
+              name: "Zavron",
+              url: "https://zavron.dev",
               description:
                 "Software built around the way your business works. Custom business systems, web applications, mobile applications, and system integrations.",
               email: "muhammadnahrulhayat98@gmail.com",
